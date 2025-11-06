@@ -50,7 +50,7 @@ context를 참고한 출력 포맷은 아래와 같아.
     - 해당 카드의 혜택
 """
 
-user_prompt = f"""\
+user_prompt = """\
 아래의 사용자 question을 읽고 context를 참고하여 가장 적합한 카드(사용자가 혜택을 최대로 받을 수 있는 카드)를 추천해주세요.
 
 --chat_history--
